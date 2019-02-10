@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import "normalize-scss";
+@import "~prismjs/themes/prism-coy.css";
+@import "base/generic";
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 1rem;
+}
+
+.git-style-anchor {
+  width: 20px !important;
+  margin-left: -25px !important;
+}
