@@ -7,7 +7,7 @@
     "develop": "npm run clean && gatsby develop",
     "build": "npm run clean && gatsby build",
     "serve": "gatsby serve",
-    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "npm run clean && gatsby build --prefix-paths && cd public && git init && git add . && git commit -m \"deploy\" && git remote add origin https://github.com/dworthen/dworthen.github.io.git && git push origin master -f",
     "clean": "rimraf .cache public"
   },
   "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",

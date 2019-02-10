@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-  url: "http://localhost:8000",
+  url: "https://dworthen.github.io",
   title: "Blog by Derek Worthen",
   subtitle: "ASP.NET Core, Blazor and TypeScript.",
   copyright: "© All rights reserved.",
