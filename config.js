@@ -1,11 +1,11 @@
 "use strict";
 
 module.exports = {
-  url: "https://dworthen.github.io",
+  url: "https://derekworthen.com",
   title: "Blog by Derek Worthen",
   subtitle: "ASP.NET Core, Blazor and TypeScript.",
   copyright: "© All rights reserved.",
-  disqusShortname: "",
+  disqusShortname: "blog-derekworthen-com",
   postsPerPage: 4,
   googleAnalyticsId: "UA-116962643-1",
   menu: [
