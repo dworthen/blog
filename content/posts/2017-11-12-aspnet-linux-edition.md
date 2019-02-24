@@ -47,7 +47,7 @@ mkdir <APP_NAME> && cd <APP_NAME> && dotnet new razor
 
 Verify the app builds and runs with `dotnet restore && dotnet run`. Head over to localhost:5000 for a front row viewing of the out-of-the-box ASP.NET template in all its glory.
 
-![Default ASP.NET application running on port 5000](aspnetcore-app.png)
+![Default ASP.NET application running on port 5000](/media/aspnetcore-app.png)
 
 ---
 
@@ -139,7 +139,7 @@ git push dokku master
 
 If all goes well, Dokku will build and deploy a docker container housing our beautiful ASP.NET application and expose it to the world at the configured `<FQDN>`, e.g., http://blog-demo-aspnet-linux-environment.derekworthen.com/.
 
-![Deploying a Dokku app](deploy-dokku-app.png)
+![Deploying a Dokku app](/media/deploy-dokku-app.png)
 
 ## Conclusion
 

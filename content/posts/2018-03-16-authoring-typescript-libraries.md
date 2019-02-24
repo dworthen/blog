@@ -182,7 +182,7 @@ $ npm run build
 
 Outputs
 
-![npm-build](npm-build.png)
+![npm-build](/media/npm-build.png)
 
 ---
 
