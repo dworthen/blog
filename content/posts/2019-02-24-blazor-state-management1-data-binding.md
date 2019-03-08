@@ -3,7 +3,7 @@ template: post
 title: Blazor State Management Part I - Data-Binding
 slug: /posts/blazor-state-management-1-data-binding/
 draft: false
-date: "2019-03-08"
+date: '2019-03-08'
 description: >-
   Blazor.net supports data-binding but what does that mean? Are there
   limitations to the data-binding implementation? What about the
@@ -13,9 +13,8 @@ category: Blazor
 tags:
   - Blazor
 ---
-
 > **This article explores data-binding in Blazor 0.7.0**
-
+>
 > **The source code for this article can be found [here](https://github.com/dworthen/BlazorStateManagement/tree/part-01-data-binding).**
 
 MVVM (Model-View-ViewModel) is a UI design pattern that separates the data layer, model, from the presentation layer, view. The pattern bridges the two layers with the ViewModel which is responsible for converting the model into a view-friendly form and for relaying view-driven updates back to the model.
@@ -220,7 +219,7 @@ After 6 seconds, DisplayPerson calls `StatehasChanged`, triggering a rerender. T
 
 Notice that the name is updating to match user input
 
----
+- - -
 
 ## Conclusion
 
