@@ -3,7 +3,7 @@ template: post
 title: Blazor State Management Part I - Data-Binding
 slug: /posts/blazor-state-management-1-data-binding/
 draft: false
-date: 2019-03-08
+date: "2019-03-08"
 description: >-
   Blazor.net supports data-binding but what does that mean? Are there
   limitations to the data-binding implementation? What about the
