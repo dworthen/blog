@@ -5,10 +5,10 @@ slug: /posts/blazor-state-management-1-data-binding/
 draft: false
 date: '2019-03-08'
 description: >-
-  Blazor.net supports data-binding but what does that mean? Are there
-  limitations to the data-binding implementation? What about the
-  Model-View-ViewModel design pattern (MVVM)? Does Blazor support the MVVM
-  pattern? In this article, I explore data-binding in Blazor.
+  Data-Binding. It's the magical glue that binds an application's UI to its
+  business model. Or, more formally, It's a process for updating UI when
+  application state changes and vice versa, keeping the state in sync with
+  changes occurring in the UI. Blazor supports data-binding, but to what extent?
 category: Blazor
 tags:
   - Blazor
@@ -20,8 +20,6 @@ tags:
 MVVM (Model-View-ViewModel) is a UI design pattern that separates the data layer, model, from the presentation layer, view. The pattern bridges the two layers with the ViewModel which is responsible for converting the model into a view-friendly form and for relaying view-driven updates back to the model.
 
 ![MVVM Diagram](/media/mvvm-concrete.png)
-
-In the above example, notice how the model stores the date compared to how the view displays the date. The ViewModel converts the date back and forth between the model and the view.
 
 An important part of the MVVM pattern is the communication between the view and ViewModel. When the ViewModel updates data the view automatically updates to reflect the changes. The opposite is also true. When the view updates data through user interactions, the ViewModel references the most up-to-date data. This is known as data-binding.
 
