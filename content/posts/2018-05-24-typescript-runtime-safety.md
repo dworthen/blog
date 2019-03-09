@@ -1,13 +1,18 @@
 ---
-title: "TypeScript and Runtime Type Safety"
-date: "2018-05-24"
-template: "post"
+template: post
+title: TypeScript and Runtime Type Safety
+slug: /posts/typescript-and-runtime-type-safety/
 draft: false
-slug: "/posts/typescript-and-runtime-type-safety/"
-category: "TypeScript"
+date: '2018-05-24'
+description: >-
+  Intellisense, type definitions, tooling, and documentation. A few of the
+  benefits that follow from TypeScript's compile-time static type system but
+  it's not all good news. There are some drawbacks. For starters, the type
+  checking, and thus type safety, occur at compile time. What about Runtime type
+  safety?
+category: TypeScript
 tags:
-  - "TypeScript"
-description: "Intellisense, type definitions, tooling, and documentation. A few of the benefits that follow from TypeScript's compile-time static type system. What about the drawbacks? Well, for starters, the type checking, and thus type safety, occur at compile time. What about Runtime type safety? What does TypeScript have to say about that?"
+  - TypeScript
 ---
 
 I began programming in TypeScript by accident. I was exploring Microsoft's new ASP.NET Core framework and before I knew it, I was writing code in TypeScript.
