@@ -17,6 +17,13 @@ tags:
 >
 > **The source code for this article can be found [here](https://github.com/dworthen/BlazorStateManagement/tree/part-01-data-binding).**
 
+**This article is part of a Blazor state management exploration series.**
+
+1. Blazor State Management Part I - Data-Binding
+2. [Blazor State Management Part II - Event Delegation](/posts/blazor-state-management-2-event-delegation)
+
+---
+
 MVVM (Model-View-ViewModel) is a UI design pattern that separates the data layer, model, from the presentation layer, view. The pattern bridges the two layers with the ViewModel which is responsible for converting the model into a view-friendly form and for relaying view-driven updates back to the model.
 
 ![MVVM Diagram](/media/mvvm-concrete.png)
