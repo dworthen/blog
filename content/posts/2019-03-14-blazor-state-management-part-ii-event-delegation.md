@@ -21,12 +21,12 @@ tags:
 
 **This article is part of a Blazor state management exploration series.**
 
-1. [Blazor State Management Part I - Data-Binding](./blazor-state-management-1-data-binding)
+1. [Blazor State Management Part I - Data-Binding](/posts/blazor-state-management-1-data-binding)
 2. Blazor State Management Part II - Event Delegation
 
 ---
 
-[Previously](./blazor-state-management-1-data-binding), we developed a sample application in order to explore data-binding in Blazor. Here is the current component structure of our sample application.
+[Previously](/posts/blazor-state-management-1-data-binding), we developed a sample application in order to explore data-binding in Blazor. Here is the current component structure of our sample application.
 
 ![data-binding component structure](/media/component-structure.png)
 
