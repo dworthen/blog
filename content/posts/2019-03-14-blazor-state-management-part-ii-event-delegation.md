@@ -18,13 +18,15 @@ tags:
 > **This article explores event delegation in Blazor 0.7.0**
 >
 > **The source code for this article can be found [here](https://github.com/dworthen/BlazorStateManagement/tree/part-02-event-delegation)**
->
-> This article is part of a Blazor state management exploration series.
->
-> 1. [Blazor State Management Part I - Data-Binding](blazor-state-management-1-data-binding)
-> 2. Blazor State Management Part II - Event Delegation
 
-[Previously](blazor-state-management-1-data-binding), we developed a sample application in order to explore data-binding in Blazor. Here is the current component structure of our sample application.
+**This article is part of a Blazor state management exploration series.**
+
+1. [Blazor State Management Part I - Data-Binding](./blazor-state-management-1-data-binding)
+2. Blazor State Management Part II - Event Delegation
+
+---
+
+[Previously](./blazor-state-management-1-data-binding), we developed a sample application in order to explore data-binding in Blazor. Here is the current component structure of our sample application.
 
 ![data-binding component structure](/media/component-structure.png)
 
