@@ -21,6 +21,7 @@ tags:
 
 1. Blazor State Management Part I - Data-Binding
 2. [Blazor State Management Part II - Event Delegation](/posts/blazor-state-management-2-event-delegation)
+3. [Blazor State Management Part III - Cascading Parameters](/posts/blazor-state-management-3-cascading-parameters)
 
 ---
 
