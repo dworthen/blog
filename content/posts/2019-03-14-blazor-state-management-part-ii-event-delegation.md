@@ -20,9 +20,9 @@ tags:
 > **The source code for this article can be found [here](https://github.com/dworthen/BlazorStateManagement/tree/part-02-event-delegation)**
 
 **This article is part of a Blazor state management exploration series.**
-
 1. [Blazor State Management Part I - Data-Binding](/posts/blazor-state-management-1-data-binding)
 2. Blazor State Management Part II - Event Delegation
+3. [Blazor State Management Part III - Cascading Parameters](/posts/blazor-state-management-3-cascading-parameters)
 
 ---
 
